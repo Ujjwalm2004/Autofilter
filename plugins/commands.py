@@ -39,7 +39,7 @@ async def start_handler(_,event: Message):
             ],
 
              [InlineKeyboardButton("Group",url='https://t.me/womrequest'),
-             InlineKeyboardButton("Help", callback_data="Help_msg")
+             InlineKeyboardButton("Help",url='https://t.me/Gopalbharbothelp/3')
              ]
         ])
     )
