@@ -13,7 +13,7 @@ async def help_handler(_, event: Message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("About", callback_data="About_msg"),
+             [InlineKeyboardButton("About 🔥", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
              ]
         ])
@@ -45,7 +45,7 @@ async def start_handler(_,event: Message):
     )
 
 VERIFY = {}
-@Client.on_message(filters.command("request") & filters.group)
+@Client.on_message(filters.command("Verify") & filters.group)
 async def request_handler(c,m: Message):
     global VERIFY
     chat_id = m.chat.id
@@ -69,7 +69,7 @@ async def request_handler(c,m: Message):
     if not group_info["has_access"] or not await db.is_group_verified(group_id):
         REPLY_MARKUP = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton('Request Access', callback_data=f'request_access#{m.chat.id}#{m.from_user.id}'),
+                InlineKeyboardButton('Request Verify', callback_data=f'request_access#{m.chat.id}#{m.from_user.id}'),
             ],
 
         ])
@@ -80,7 +80,7 @@ async def request_handler(c,m: Message):
         return await m.reply_text("Your group already have access to /addb")
 
 
-@Client.on_message(filters.command("addb") & filters.group)
+@Client.on_message(filters.command("db") & filters.group)
 async def addb_handler(c, m: Message):
     global VERIFY
     chat_id = m.chat.id
