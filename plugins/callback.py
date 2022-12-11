@@ -117,7 +117,7 @@ async def button(bot, cmd: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
-                        InlineKeyboardButton("Developer",url='https://t.me/Royaldwip'),
+                        InlineKeyboardButton("Watch Tutorial",url='https://youtu.be/teyT888yRpk'),
                         InlineKeyboardButton("Home", callback_data="gohome")
                     ]
                 ]
