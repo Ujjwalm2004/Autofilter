@@ -28,9 +28,28 @@ Nᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ
 
 Fᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ. ✅''')
     START_PHOTO = os.getenv("START_PHOTO")
-    HOME_TEXT = os.getenv("HOME_TEXT", '''Hᴇʏ, {} 😃
+    HOME_TEXT = os.getenv("HOME_TEXT", '''Hᴇʏ,{}! 😃
 
-Tʜɪs Is Mʏ Aʙᴏᴜᴛ Sᴇᴄᴛɪᴏɴ 🙂
+I Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅
+
+Yᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪
+
+Nᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜
+
+Fᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ. ✅''')
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
+    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
+    BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
+    FORCE_SUB = os.getenv("FORCE_SUB", "True")
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
+    MDISK_API = os.getenv("MDISK_API", "12334")
+    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''<b>Hᴇʏ, {} 😃
+
+Tʜɪs Is Mʏ Aʙᴏᴜᴛ Sᴇᴄᴛɪᴏɴ 🙂</b>
 
 <b>✯ Mʏ Nᴀᴍᴇ : Gopal Bhar Bot</b>
 
@@ -39,19 +58,6 @@ Tʜɪs Is Mʏ Aʙᴏᴜᴛ Sᴇᴄᴛɪᴏɴ 🙂
 <b>✯ Oᴜʀ Cʜᴀɴɴᴇʟ: <a href=https://t.me/worldofmovies8>WOM BW MOVIES</a></b>
 
 <b>✯ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ : @Womrequest</b>''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
-    DATABASE_URL = os.getenv("DATABASE_URL", "")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
-    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
-    BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
-    FORCE_SUB = os.getenv("FORCE_SUB", "-1001609540192")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
-    MDISK_API = os.getenv("MDISK_API", "12334")
-    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
-
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @Royaldwip''')
     ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''🍓 RᴇQᴜɪʀᴇᴍᴇɴᴛ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 
 🍓 Sᴛᴇᴘ 1 - Aᴘᴋᴏ ᴇᴋ ɢʀᴏᴜᴘ ᴋɪ ᴊᴀʀᴜʀᴀᴛ ʜᴏɢɪ, ᴊɪꜱᴍᴇ ᴍᴇᴍʙᴇʀꜱ ʙʜɪ ʜᴏ, ᴀᴜʀ ᴇᴋ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴋɪ ᴊᴀʀᴜʀᴀᴛ ʜᴏɢɪ, ᴊɪꜱᴍᴇ ᴀᴘᴋᴇ ꜱᴀʀᴇ ᴘᴏꜱᴛ ʜᴏɴɢᴇ!
