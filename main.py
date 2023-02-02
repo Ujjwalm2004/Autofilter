@@ -143,7 +143,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("Please Search Again {event.sender.first_name}...")
+        result = await event.reply("Please Search Again Brother... 🙏")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
