@@ -62,7 +62,7 @@ async def message_handler(event):
         if not args:
             return
 
-        txt = await event.reply('**Printing Links For "{}"  🎞**'.format(event.text))
+        txt = await event.reply('**Printing Links For "{}" 🔍**'.format(event.text))
 
 
 
@@ -143,7 +143,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("Please Search Again Brother...🔍")
+        result = await event.reply("Please Search Again {event.sender.first_name}...")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
