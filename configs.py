@@ -53,7 +53,7 @@ Tʜɪs Is Mʏ Aʙᴏᴜᴛ Sᴇᴄᴛɪᴏɴ 🙂</b>
 
 <b>✯ Mʏ Nᴀᴍᴇ : Gopal Bhar Bot</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Royaldwip>Royal Dwip</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Royaldwip>ROYAL DWIP</a></b>
 
 <b>✯ Oᴜʀ Cʜᴀɴɴᴇʟ: <a href=https://t.me/worldofmovies8>WOM BW MOVIES</a></b>
 
