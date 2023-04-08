@@ -7,8 +7,8 @@
 
 ## Credits 
 
-* [![Royal Dwip](https://img.shields.io/static/v1?label=KDBotz&message=Telegram&color=critical)](https://t.me/Royaldwip)
-* [![Movie Channel](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://t.me/worldofmovies8)
+* [![Royal Dwip](https://img.shields.io/static/v1?label=Royal&message=Dwip&color=critical)](https://t.me/Royaldwip)
+* [![Movie Channel](https://img.shields.io/static/v1?label=Movies&message=Channel&color=critical)](https://t.me/worldofmovies8)
 
 ## Deploy 
 
