@@ -89,7 +89,7 @@
         "ABOUT_TEXT": {
             "description": "Type Anything You Want"
         },    
-        "MDISK_API":{
+        #"MDISK_API":{
             "description": "Mdisk API",
             "required": false,
             "value": ""
